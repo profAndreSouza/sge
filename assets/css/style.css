@@ -78,6 +78,7 @@ header nav li {
 header .user {
     display: flex;
     align-items: center;
+    margin-right: 50px;
 }
 
 header .user .profile {
@@ -87,11 +88,14 @@ header .user .profile {
     border-radius: 32px;
 }
 
-
 header .arrow {
     position: relative;
     height: 16px;
-    width: 16px;
+    width: 16px; 
+    display: inline-block;
+
+    margin-right: -20px;
+
 }
 
 
@@ -123,9 +127,66 @@ footer p {
 
 }
 
-
 .conteudo {
     height: 780px;
     width: 100%;
     background-color: linen;
+}
+
+.menu_button {
+    background-color: rgba(27, 143, 189, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+       
+}
+.menu_button:hover {
+    background-color: rgba(0, 0, 255, 0);
+    border: 2px solid grey;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    width: -64px;
+    height: 65px;
+    padding-left: 10px;
+    
+}
+.dropdown_bar {
+    display: none;
+    background-color: rgb(14, 80, 107);
+    width: 148px;
+    border-radius: 3px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
+}
+.dropdown_bar a {
+    color: blue;
+    margin-left: 0px;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 20%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.dropdown:hover .dropdown_bar {
+    display: block;
+    
+}
+
+.dropdown_bar a:hover{
+    background-color: coral;
+    
 }
