@@ -1,3 +1,4 @@
-# sge
-Sistema de Gestão Escolar
+# SGE - Sistema de Gestão Escolar
+
+
 Desenvolvido em TypeScript
