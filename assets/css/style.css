@@ -78,7 +78,7 @@ header nav li {
 header .user {
     display: flex;
     align-items: center;
-    margin-right: 50px;
+    
 }
 
 header .user .profile {
@@ -110,7 +110,7 @@ footer {
     left: 0px;
     bottom: 0px;
 
-    background: #2884B2;
+    background: rgb(41, 133, 179);
     border-radius: 0px;
 }
 
@@ -139,33 +139,42 @@ footer p {
     font-weight: bold;
     border: none;
     cursor: pointer;
+    margin-left: -20px;
     width: 25px;
-    height: 50px;
+    height: 80px;
     border-radius: 3px;
     border: none;
        
 }
 .menu_button:hover {
     background-color: rgba(0, 0, 255, 0);
-    border: 2px solid grey;
+    border: none;
     }
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-right: 30px;
+    margin-top: -45px;
+    transform: scaleX(-1);
+    width: 5px;   
+    height: 10px;
+    border: 5px;
     
-    width: -64px;
-    height: 65px;
-    padding-left: 10px;
     
 }
 .dropdown_bar {
     display: none;
-    background-color: rgb(14, 80, 107);
+    background-color: #FFFFFF;
+    
     width: 148px;
+    right: -110px;
+    transform: scaleX(-1);
     border-radius: 3px;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px solid black;
+
+    position: absolute;
     
 }
 .dropdown_bar a {
@@ -174,19 +183,19 @@ footer p {
     text-decoration: none;
     display: block;
     width: 150px;
-    height: 50px;
     text-align: center;
-    padding-top: 20%;
-    color: white;
+    padding: 10px 0px;
+    color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .dropdown:hover .dropdown_bar {
     display: block;
     
+    
 }
 
 .dropdown_bar a:hover{
-    background-color: coral;
+    background-color: rgb(41, 133, 179);
     
 }
